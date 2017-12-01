@@ -1,6 +1,13 @@
 2017-12-01
 
 
+//확장된 for문(향상된 for문)
+for(int num : array) {
+	System.out.print(num + " ");
+}
+
+
+
 이클립스 설정
 
 Window > Preferences > General > Colors and Fonts > Basic > Text Font > Edit > Font 크기 변경
@@ -123,6 +130,9 @@ git add --all
 git commit -m "업로드 메시지"
 git push -u origin master
 git status
+
+git 업로드가 안되는 경우
+git push origin +master
 
 
 박재현
