@@ -1,3 +1,36 @@
+2017-12-04
+
+API 문서
+https://docs.oracle.com/javase/8/docs/api/
+
+주민번호 체크
+ 7 3 0 9 2 1 - 1 0 1 8 8 2 (2->체크자리) 
+{2,3,4,5,6,7,0,8,9,2,3,4,5} <- weight(가중치)
+
+0은 ASCII 코드값이 48 이다.
+'A'는 ASCII 코드값이 65 이다.
+'a'는 ASCII 코드값이 97 이다.
+
+charAt -> 한 글자만 입력
+변수.charAt(i)
+
+1단계 : sum	= 주민번호 * {}
+2단계 : temp	= 11 - (sum % 11)
+temp원리 -> sum+temp = 11의 배수
+3단계 : result	= temp % 10
+
+자바의 기본 데이터 타입
+	Wrapper 클래스(8가지클래스를 총칭)
+byte	-> Byte
+short	-> Short
+int	-> Integer
+long	-> Long
+float	-> Float
+double	-> Double
+char	-> Character
+boolean	-> Boolean
+
+
 2017-12-01
 
 
@@ -10,7 +43,7 @@ for(int num : array) {
 
 이클립스 설정
 
-Window > Preferences > General > Colors and Fonts > Basic > Text Font > Edit > Font 크기 변경
+Window > Preferences > General > Appearance > Colors and Fonts > Basic > Text Font > Edit > Font 크기 변경
 
 Window > Preferences > General > Editors > Text Editors > Show line numbers 체크
 
@@ -29,6 +62,22 @@ Basic
 - 문자 : char
 - 논리 : boolean(true/false)
 
+2. 연산자
+3. 제어문
+4. 배열
+================================================
+클래스 -> 필드/생성자/메소드
+인터페이스 -> 상수/추상메소드
+
+
+스레드
+컬렉션 클래스들 -> Vector(객체생성/가변배열) / ArrayList
+String 클래스
+람다식
+스트림
+
+
+윈도우 프르그램 -> 이벤트 핸들러
 
 
 
@@ -36,7 +85,7 @@ Basic
 010-6865-5900
 park5901@hanmail.net
 (주)더브레인에스 / IOT융합연구소 대표지도교수
-
+http://blog.naver.com/
 
 
 
