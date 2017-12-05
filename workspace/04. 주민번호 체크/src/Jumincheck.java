@@ -53,6 +53,33 @@ public class Jumincheck {
 			
 			//생년월일 추출 - 73/09/21
 			System.out.println("생년월일 : " + yy + "/" + JuminNo.substring(2, 4) + "/" + JuminNo.substring(4, 6));
+			
+			//출신지역 추출 - 서울 (00~08)
+			String LocaleCode[][] = {{"서울","00","08"},{"부산","09","12"},
+					{"인천","13","15"},{"경기","16","28"},
+					{"강원","26","34"},{"충북","35","39"},
+					{"대전","40","40"},{"충남","41","43"},
+					{"충남","45","47"},{"세종","44","44"},
+					{"세종","96","96"},{"전북","55","64"},
+					{"광주","65","66"},{"대구","67","70"},
+					{"경북","71","80"},{"경남","81","84"},
+					{"울산","82","85"},{"제주","91","95"}
+			};
+			
+			String LocaleString = JuminNo.substring(8, 10);
+			
+			int Locale = Integer.parseInt(LocaleString);
+			
+			String BirthPlace = null;
+			
+			for(int j = 0; j < 18; j++) {
+				if (Locale >= Integer.parseInt(LocaleCode[j][1]) &&
+						Locale <= Integer.parseInt(LocaleCode[j][2])) {
+					BirthPlace = LocaleCode[j][0];
+				}
+			}
+			
+			System.out.println("출신지역 : " + BirthPlace);
 						
 		} else {
 			System.out.println("주민번호 틀림!!");
