@@ -1,7 +1,19 @@
 2017-12-05
 
-메소드 오버로딩 -> 같은 이름의 메소드가 다중으로 있는 경우
-메소드 오버라이딩 -> 부모/자식간에 같은 이름이 다중으로 있는 경우
+인터페이스 구현 -> 중요함
+인터페이스명 : RemoteControl
+글래스명 :	Television -> main() 메소드 포함하지 않음
+			Audio -> main() 메소드 포함하지 않음
+			RemoteControlExample -> main() 메소드 포함
+
+
+캡슐화(encapsulation) - private / proteced / public
+상속성(inheritance) - extends
+다형성(polymorphism) - 오버로딩 / 오버라이딩
+
+
+메소드 오버로딩 -> 하나의 클래스에서 같은 이름의 메소드가 다중으로 있는 경우
+메소드 오버라이딩 -> 부모/자식간 클래스에 같은 이름이 다중으로 있는 경우
 
 어떤 클래스가 부모 클래스 일 때, 인자가 있는 생성자만 있을 경우,
 Default 생성자를 만들어야 한다.
@@ -47,6 +59,11 @@ public interface 인터페이스명 {
 	}
 
 }
+
+인터페이스 구현객체
+public class Television implements RemoteControl {
+}
+
 
 출신지역 -> 주민번호의 뒤자리 중 2~3번째 자리에 해당한다.
 서울 ; 00 ~ 08
