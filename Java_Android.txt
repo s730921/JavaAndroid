@@ -5,7 +5,7 @@
 2. extends JFrame 상속
 3. implements ActionListener 추가
 4. @Override 추상메소드 추가
-5. main 객체 생성
+5. main 메소드에 객체 생성
 6. 생성자 구현
 implements 추상메소드
 
