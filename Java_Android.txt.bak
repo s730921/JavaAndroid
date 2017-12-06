@@ -1,3 +1,10 @@
+2017-12-06
+
+강의 일정
+
+
+
+
 2017-12-05
 
 인터페이스 구현 -> 중요함
@@ -59,6 +66,11 @@ public interface 인터페이스명 {
 	}
 
 }
+
+인터페이스 구현객체
+public class Television implements RemoteControl {
+}
+
 
 출신지역 -> 주민번호의 뒤자리 중 2~3번째 자리에 해당한다.
 서울 ; 00 ~ 08
