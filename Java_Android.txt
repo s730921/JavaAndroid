@@ -1,5 +1,23 @@
 2017-12-06
 
+윈도우 프로그램 작성 순서
+1. 클래스 생성
+2. extends JFrame 상속
+3. implements ActionListener 추가
+4. @Override 추상메소드 추가
+5. main 객체 생성
+6. 생성자 구현
+implements 추상메소드
+
+자바 배치 관리자
+BoardLayout	동/서/남/북/센터
+FlowLayout	좌->우 배치
+GridLayout	2차원 배열형태로 배치
+CardLayout	여러장의 카드를 켭쳐놓고 앞으로 뒤로 배치
+
+ArrayList 구현 예제 만들어 보기
+
+
 강의 일정
 	JAVA(객체지향언어/이벤트처리 중심 언어)				Android
 1. 자료형(Data Type)

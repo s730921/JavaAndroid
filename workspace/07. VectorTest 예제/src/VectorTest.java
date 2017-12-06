@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.Vector;
 
 public class VectorTest {
@@ -35,6 +36,9 @@ public class VectorTest {
 		Vec.remove(2);			//객체의 특정위치 데이터 삭제
 		System.out.println(Vec);
 		System.out.println();
+		
+		Collections.sort(Vec);
+		System.out.println(Vec);
 
 	}
 }
