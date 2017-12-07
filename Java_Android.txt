@@ -1,3 +1,18 @@
+2017-12-07
+
+e.getStateChange() -> 이벤트가 발생했는지 여부
+e.getSource() -> 선택된 이벤트 확인
+
+
+JAVA 컴포넌트 유형
+1. awt 컴포넌트 -> Button, TextField 등
+2. Swing 컴포넌트 -> JButton, JTextField (대문자 J가 붙은것이 Swing컴포넌트 ; 모양이 좋다/가볍다)
+
+추상메소드가 1개 이상인 경우에만 Adapter Class가 있다
+
+
+
+
 2017-12-06
 
 윈도우 프로그램 작성 순서

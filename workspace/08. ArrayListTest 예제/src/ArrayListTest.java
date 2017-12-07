@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class ArrayListTest {
 
@@ -8,7 +9,9 @@ public class ArrayListTest {
 		list.add(new Integer(85));
 		
 		list.add(2,50);*/
-		ArrayListTest<Integer> List = new ArrayListTest<Integer>();
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(100);
+		
 	}
 
 }

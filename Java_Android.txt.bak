@@ -1,3 +1,15 @@
+2017-12-07
+
+
+JAVA 컴포넌트 유형
+1. awt 컴포넌트 -> Button, TextField 등
+2. Swing 컴포넌트 -> JButton, JTextField (대문자 J가 붙은것이 Swing컴포넌트 ; 모양이 좋다/가볍다)
+
+추상메소드가 1개 이상인 경우에만 Adapter Class가 있다
+
+
+
+
 2017-12-06
 
 윈도우 프로그램 작성 순서
@@ -5,7 +17,7 @@
 2. extends JFrame 상속
 3. implements ActionListener 추가
 4. @Override 추상메소드 추가
-5. main 객체 생성
+5. main 메소드에 객체 생성
 6. 생성자 구현
 implements 추상메소드
 
